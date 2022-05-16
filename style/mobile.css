@@ -1,0 +1,69 @@
+@media (max-width: 768px) {
+    
+    .grid, 
+    .showcase .grid,
+    .services .grid,
+    .team .grid,
+    .about .grid,
+    .contact .grid
+    {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    /* showcase height was 400px and the form was dropping over text on smaller screen setting height to auto corrects this */
+    .showcase{
+        height: auto;
+        padding: 2rem;
+    }
+
+    .showcase-text{
+        text-align: center;
+        margin-top: 40px;
+
+    }
+    
+        .team img{
+            width: 450px;
+        }
+
+        .overview .card{
+            margin-top: 300px;
+        }
+
+        .contact{
+            margin-bottom: 400px;
+        }
+
+        .contact .card{
+            height: 300px;
+        }
+   
+
+
+} 
+
+
+@media (max-width: 500px) {
+
+
+    .navbar .logo {
+       font-size: 1.4rem;
+    }
+
+    .navbar .flex{
+        flex-direction: column;
+    }
+
+    .navbar ul{
+        padding: 10px;
+        background-color: rgba(0, 0, 0, 0.1);
+       
+    }
+
+    
+}
+
+
+
+
